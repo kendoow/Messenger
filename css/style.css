@@ -69,6 +69,8 @@ textarea{
 }
 
 .header{
+    position: sticky;
+    top: 0;
     padding-top: 6px;
     padding-bottom: 6px;
     background-color: #0050b3;
@@ -174,6 +176,7 @@ textarea{
     display: flex;
 }
 .main__menu{
+    
     padding-top: 18px;
     width: 192px;
     margin-right: 12px;
