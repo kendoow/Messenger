@@ -476,3 +476,101 @@ textarea{
     line-height: 22px;
     color: #0050b3;
 }
+.birthday{
+    display: flex;
+    align-items: center;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    margin-left: 24px;
+    padding: 16px;
+}
+.birthday-text{
+    padding-left: 8px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 22px;
+}
+.birthday-text a{
+    color: #0050B3;
+}
+.your-page{
+    background: #FFFFFF;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    margin-left: 24px;
+    
+}
+.your-page-title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #D9D9D9;
+}
+.three-points{
+    margin-top: 8px;
+    margin-right: 16px;
+    margin-bottom: 9px;
+}
+.your-page-title-text{
+    padding-top: 10px;
+    padding-left: 16px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 22px;
+    color: #595959;
+    margin-bottom: 9px;
+}
+.your-page-notifications{
+    display: flex;
+    border-bottom: 1px solid #D9D9D9;
+    padding-top: 16px;
+    padding-left: 16px;
+   
+}
+.Concuria-notstory{
+    
+    padding-left: 16px;
+    padding-right: 12px;
+}
+.message-text{
+    
+    font-size: 14px;
+    line-height: 22px;
+    color: #8C8C8C;
+}
+.picture-link{
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 22px;
+    color: #0050B3;
+}
+.Number-counter{
+    padding-left: 8px;
+    opacity: 0.85;
+}
+.messages-profile{
+    padding-top: 9px;
+}
+.bell-profile{
+    padding-bottom: 23px;
+   
+}
+.page-stats{
+    display: flex;
+    justify-content: space-between;
+}
+.messages-profile, .bell-profile{
+    vertical-align: middle;
+}
+.Number-counter{
+    margin-left: 5px;
+    color: #595959;
+    background-color: #F5F5F5;
+    border: 1px solid #D9D9D9;
+    padding: 3px;
+    border-radius: 20%;
+}
+
