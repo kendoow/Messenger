@@ -74,6 +74,26 @@ textarea{
     padding-top: 6px;
     padding-bottom: 6px;
     background-color: #0050b3;
+    width: 100%;
+    z-index: 12;
+}
+.m-menu{
+    border: none;
+    width: 32px;
+    height: 32px;
+    padding: 0;
+    background-color: transparent;
+    display: none;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 12px;
+   
+}
+.m-menu .line{
+    width: 100%;
+    height: 1px;
+    background-color: #fff;
+    
 }
 .header__block{
     max-width: 1200px;
@@ -560,7 +580,9 @@ textarea{
 }
 .page-stats{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    margin-top: 16px;
+   
 }
 .messages-profile, .bell-profile{
     vertical-align: middle;
@@ -572,5 +594,35 @@ textarea{
     border: 1px solid #D9D9D9;
     padding: 3px;
     border-radius: 20%;
+}
+.stats-name{
+    padding: 8px 30px;
+    color:#595959;
+    border: 1px solid #D9D9D9;
+}
+.stats-name:last-child,.stats-name:first-child{
+    border-radius: 5%;
+}
+.stats-result{
+    font-weight: 400;
+    margin-top: 16px;
+    display: flex;
+    justify-content: center;
+    color: #262626;
+    font-size: 24px;
+    line-height: 32px;
+}
+.stats-result-end{
+    margin-top: 8px;
+    padding-bottom: 15px;
+    display: flex;
+    justify-content: center;
+    font-size: 14px;
+    line-height: 22px;
+    color: #8C8C8C;
+}
+.stats-name:hover, .stats-name:active, .stats-name:focus{
+    border: 1px solid #1890FF;
+    color: #1890FF;
 }
 
